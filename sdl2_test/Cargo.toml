@@ -1,0 +1,11 @@
+# Started using the crate stuff after reading at: https://www.tutorialspoint.com/rust/rust_package_manager.htm
+[package]
+name = "sdl2_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Found by looking at https://github.com/rust-lang/crates.io-index/tree/master/sd/l2
+sdl2 = "0.35.2"

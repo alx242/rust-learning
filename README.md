@@ -19,7 +19,29 @@ https://docs.rs/sdl2/
 See more: https://github.com/rust-lang/rust-mode
 
 # Compile
-`$> rustc whatever.rs`
+`rustc whatever.rs`
 
 # Execute
-`$> ./whatever`
+`./whatever`
+
+# Crates
+When using some dependency the cargo tool seemed most easy to use:
+https://www.tutorialspoint.com/rust/rust_package_manager.htm
+
+To create a binary/executable
+`cargo new <name> --bin`
+
+To create a library
+`cargo new <name> --lib`
+
+To build just edit the Cargo.toml file and execute
+`cargo build`
+
+To run
+`cargo run`
+
+Or
+~~~
+cd target/debug
+./binary-name
+~~~
