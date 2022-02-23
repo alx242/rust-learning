@@ -6,6 +6,13 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-# Found by looking at https://github.com/rust-lang/crates.io-index/tree/master/sd/l2
-sdl2 = "0.35.2"
+# Found by looking at
+# https://github.com/rust-lang/crates.io-index/tree/master/sd/l2
+# and
+# https://docs.rs/sdl2/latest/sdl2/gfx/index.html
+[dependencies.sdl2]
+
+version = "0.35.2"
+default-features = false
+# features = ["gfx"]
+
