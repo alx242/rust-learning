@@ -24,7 +24,7 @@ See more: https://github.com/rust-lang/rust-mode
 # Execute
 `./whatever`
 
-# Crates
+# Packages
 When using some dependency the cargo tool seemed most easy to use:
 https://www.tutorialspoint.com/rust/rust_package_manager.htm
 
