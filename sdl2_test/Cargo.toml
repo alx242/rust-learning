@@ -11,8 +11,10 @@ edition = "2021"
 # and
 # https://docs.rs/sdl2/latest/sdl2/gfx/index.html
 [dependencies.sdl2]
-
 version = "0.35.2"
 default-features = false
 # features = ["gfx"]
+
+[dependencies.libm]
+version = "0.2.2"
 
